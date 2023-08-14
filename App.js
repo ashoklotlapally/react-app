@@ -6,15 +6,12 @@
  * </div>
  */
 
-// const h1tag = React.createElement("div",{ id : "parent"},
-// React.createElement("div",{ id : "child"}),
-// React.createElement("h1",{ id : "some"}, "Hello")
-// );
+const h1tag = React.createElement("div",{ id : "parent"},
+React.createElement("div",{ id : "child"}),
+React.createElement("h1",{ id : "some"}, "Hello All, I am from Reactjs and NestedH1")
+);
 
-const nestedElements = React.createElement("div", {id : 'parent'}, 
-React.createElement("div", {id : 'child'}), 
-React.createElement("h1", {id : 'h1id'}, "Hey nested")
- );
+
 
 console.log(h1tag);
 
